@@ -141,11 +141,11 @@ vlan 30
  name IT
 
 interface FastEthernet0/1
- Switchport access vlan 10
+ Switchport access vlan 30
  Switchport mode access
 
 interface FastEthernet0/2
- Switchport access vlan 10
+ Switchport access vlan 30
  Switchport mode access
 
 interface FastEthernet0/20
@@ -156,5 +156,5 @@ interface range fa0/3-19, fa0/21-24, Gig0/1-2
 ```
 
 ### ✅  **Testing Results**
-
+![Testing Diagram](Testing_Ping.jpeg)
 
